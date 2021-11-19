@@ -1,6 +1,5 @@
 const slides = document.querySelectorAll('.slide')
 
-// первый способ добавить слушателя
 for (const slide of slides) {
     slide.addEventListener('click', () => {
         clearActiveClasses()
